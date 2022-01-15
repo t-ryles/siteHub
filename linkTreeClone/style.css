@@ -1,0 +1,84 @@
+.dou {
+	border: 1px darkblue solid;
+}
+
+.textColor {
+	color: #5f6e7d;
+}
+
+main {
+	display: grid;
+	place-items: center;
+	margin-top: 1%;
+	background-color: #f0f7ff;
+}
+
+img {
+	width: 150px;
+	height: auto;
+	margin-top: 10px;
+	box-shadow: 0 0 60px rgb(64, 80, 98);
+	border-radius: 7px;
+}
+
+h1 {
+	font-family: 'Reem Kufi', sans-serif;
+	letter-spacing: 3px;
+	font-size: 45px;
+	margin: 7px;
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Average Sans', sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: hsl(0, 0%, 40%);
+	margin: 0;
+}
+
+p {
+	width: 450px;
+	text-align: center;
+	font-family: 'Average Sans', sans-serif;
+	font-size: 15px;
+}
+
+.btnBox {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 10px;
+}
+
+button {
+	margin: 5px;
+	padding: 10px 22px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: hsl(0, 0%, 40%);
+}
+
+button:hover {
+	background-color: #889cb3dc;
+	transition: 300ms;
+}
+
+a {
+	text-decoration: none;
+	color: #e0efff;
+	font-size: 11px;
+	letter-spacing: 1.5px;
+}
+
+a:hover {
+	color: hsl(0, 0%, 32%);
+}
+
+@media only screen and (min-width: 1000px) {
+	.btnBox {
+		display: block;
+	}
+}
