@@ -6,11 +6,14 @@
 	color: #5f6e7d;
 }
 
+body {
+	background-color: #f0f7ff;
+}
+
 main {
 	display: grid;
 	place-items: center;
 	margin-top: 1%;
-	background-color: #f0f7ff;
 }
 
 img {
