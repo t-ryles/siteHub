@@ -1,0 +1,67 @@
+.btnBox {
+	justify-content: center;
+	margin: auto;
+	width: auto;
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 10px;
+}
+
+.box {
+	width: 100px;
+	height: 45px;
+}
+
+a {
+	width: auto;
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 13px;
+	font-family: 'Average Sans', sans-serif;
+	text-decoration: none;
+	color: #5f6e7d;
+	font-size: 15px;
+	font-weight: 550;
+	letter-spacing: 1.5px;
+}
+
+a:hover {
+	color: #5f6e7d;
+}
+
+.box1 {
+	text-align: center;
+	background-color: white;
+	border: silver 2px solid;
+	z-index: 1;
+	position: absolute;
+}
+
+.box1:hover,
+a:hover {
+	color: hsl(0, 0%, 32%);
+	background-color: silver;
+	color: snow;
+}
+
+.box2 {
+	top: 3px;
+	left: 4px;
+	position: relative;
+	border: silver 2px solid;
+}
+
+.boxContainer {
+	padding: 2%;
+}
+
+@media only screen and (max-width: 800px) {
+	.btnBox {
+		display: block;
+	}
+
+	.boxContainer {
+		padding-bottom: 7%;
+	}
+}
