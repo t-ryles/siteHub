@@ -31,13 +31,22 @@ h1 {
 	margin: 7px;
 }
 
+h2,
 h3 {
 	text-align: center;
 	font-family: 'Average Sans', sans-serif;
-	font-size: 20px;
 	letter-spacing: 2px;
 	color: hsl(0, 0%, 40%);
 	margin: 0;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+h3 {
+	margin-top: 1%;
+	font-size: 15px;
 }
 
 p {
@@ -47,41 +56,24 @@ p {
 	font-size: 15px;
 }
 
-.btnBox {
-	display: flex;
-	flex-direction: column;
-	padding-bottom: 10px;
-}
+@media only screen and (max-width: 800px) {
+	img {
+		width: 200px;
+		height: auto;
+	}
+	h1 {
+		font-size: 35px;
+	}
 
-button {
-	margin: 5px;
-	padding: 10px 22px;
-	text-align: center;
-	text-decoration: none;
-	font-size: 10px;
-	border: none;
-	border-radius: 5px;
-	background-color: hsl(0, 0%, 40%);
-}
+	h2 {
+		font-size: 20px;
+	}
+	h3 {
+		font-size: 12px;
+	}
 
-button:hover {
-	background-color: #889cb3dc;
-	transition: 300ms;
-}
-
-a {
-	text-decoration: none;
-	color: #e0efff;
-	font-size: 11px;
-	letter-spacing: 1.5px;
-}
-
-a:hover {
-	color: hsl(0, 0%, 32%);
-}
-
-@media only screen and (min-width: 1000px) {
-	.btnBox {
-		display: block;
+	p {
+		font-size: 12;
+		width: 400px;
 	}
 }
